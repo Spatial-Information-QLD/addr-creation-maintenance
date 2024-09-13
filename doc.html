@@ -443,14 +443,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_introduction">1. Introduction</a></li>
-<li><a href="#_scope">2. Scope</a></li>
-<li><a href="#_normative_references">3. Normative References</a></li>
-<li><a href="#_terms_definitions">4. Terms &amp; Definitions</a></li>
-<li><a href="#_conformance">5. Conformance</a></li>
-<li><a href="#_overview">6. Overview</a></li>
-<li><a href="#_good_practice">7. Good practice</a></li>
-<li><a href="#_governance_framework">8. Governance Framework</a></li>
+<li><a href="#_abstract">1. Abstract</a></li>
+<li><a href="#_metadata">2. Metadata</a></li>
+<li><a href="#_preamble">3. Preamble</a>
+<ul class="sectlevel2">
+<li><a href="#_scope">3.1. Scope</a></li>
+<li><a href="#_normative_references">3.2. Normative References</a></li>
+<li><a href="#_terms_definitions">3.3. Terms &amp; Definitions</a></li>
+<li><a href="#_conformance">3.4. Conformance</a></li>
+</ul>
+</li>
+<li><a href="#_introduction">4. Introduction</a></li>
+<li><a href="#_good_practice">5. Good practice</a></li>
+<li><a href="#_governance_framework">6. Governance Framework</a></li>
 <li><a href="#AnnexA">Annex A: Identifiers</a></li>
 <li><a href="#_bibliography">Bibliography</a></li>
 </ul>
@@ -458,159 +463,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_introduction"><a class="anchor" href="#_introduction"></a>1. Introduction</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This is a placeholder</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_scope"><a class="anchor" href="#_scope"></a>2. Scope</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This document is a Profile of ISO 19160-2:2023, Addressing – Part 2: Assigning and maintaining addresses for objects in the physical world.</p>
-</div>
-<div class="paragraph">
-<p>In the Australian context this standard applies to thoroughfare based addressing i.e. street and water, as well as landmark addressing. It is designed as a replacement for <a href="#ANZ4819">AS/NZS4819:2011</a>. This standard does not apply to other address classes such as postal or landmark at this time. Postal addressing is expected to adhere to AS/NZS ISO 19160.4:2023.</p>
-</div>
-<div class="paragraph">
-<p>This document focuses on assigning and maintaining addresses that allow the unambiguous determination of an object in the physical world for purposes of identification and location in the context of public administration and public service delivery.</p>
-</div>
-<div class="paragraph">
-<p>This standard provides requirements for addressing authorities to assign addresses, record the related information, and signage related to addressing components.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_normative_references"><a class="anchor" href="#_normative_references"></a>3. Normative References</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The following standard is needed for the application of the Australian Profile:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>ISO 19160-2:2023 Addressing – Part 2: Assigning and maintaining addresses for objects in the physical world.</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>The following documents informed aspects of this standard for Australia:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="#ANZ4819">AS/NZS 4819:2011 Rural and urban addressing</a></p>
-</li>
-<li>
-<p>AS 4590.1:2017 Interchange of client information</p>
-</li>
-<li>
-<p><a href="#ISO19160-1">AS/NZS ISO 19160.1:2018 Addressing – Part 1: Conceptual model</a></p>
-</li>
-<li>
-<p>ICSM Addressing 2035 Strategy and Supporting Addendum1</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_terms_definitions"><a class="anchor" href="#_terms_definitions"></a>4. Terms &amp; Definitions</h2>
-<div class="sectionbody">
-<div class="dlist">
-<dl>
-<dt class="hdlist1"><a id="access-point"></a> access point</dt>
-<dd>
-<p>The position along a throughfare (road or water feature) where the public would normally access an address site.</p>
-</dd>
-<dt class="hdlist1"><a id="address"></a> address</dt>
-<dd>
-<p>An address is structured information that allows the unambiguous determination of an object for purposes of identification and location (SOURCE ISO 19160-1:2015). The objects exist in the physical world (i.e. virtual objects are excluded) and can be outdoor (e.g. a building) or indoor (e.g. an office inside a building).</p>
-</dd>
-<dt class="hdlist1"><a id="addressable-object"></a> addressable object</dt>
-<dd>
-<p>Object that may be assigned an address. [SOURCE: ISO 19160.2:2023]</p>
-</dd>
-<dt class="hdlist1"><a id="address-assignment-method"></a> address assignment method</dt>
-<dd>
-<p>The way in which addresses are assigned according to the rules of an address reference system. [SOURCE: ISO 19160.2:2023]</p>
-</dd>
-<dt class="hdlist1"><a id="address-authority"></a> address authority</dt>
-<dd>
-<p>Agency responsible for assigning addresses. Usually a local government. [SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="address-class"></a> address class</dt>
-<dd>
-<p>description of a set of addresses that share the same address components, operations, methods, relationships, and semantics [SOURCE: ISO 19160.2:2023]</p>
-</dd>
-<dt class="hdlist1"><a id="address-component"></a> address component</dt>
-<dd>
-<p>constituent part of the address. These may reference another object such as a spatial object including and administrative boundary or land parcel, or a non spatial entity. [SOURCE: ISO 19160.2:2023]</p>
-</dd>
-<dt class="hdlist1"><a id="address-reference-system"></a> address reference system</dt>
-<dd>
-<p>A defined set of address components and the rules for their combination into addresses [SOURCE: ISO 19160.2:2023]</p>
-</dd>
-<dt class="hdlist1"><a id="address-site"></a> address site</dt>
-<dd>
-<p>a site for which an address is being assigned [SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="alternative-name"></a> alternative name</dt>
-<dd>
-<p>a name that is an alternative name to another name for the same feature [SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="dual-name"></a> dual name</dt>
-<dd>
-<p>a name that consists of two official names that must be used together, usually one indigenous and one European (e.g. ‘Aoraki/Mount Cook’) [SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="formed"></a> formed</dt>
-<dd>
-<p>in relation to a road, means that it is physically constructed or prepared for passage by vehicles or pedestrians [SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="geocode"></a> geocode</dt>
-<dd>
-<p>a point feature for an address spatially defined by coordinates</p>
-</dd>
-<dt class="hdlist1"><a id="locality"></a> locality</dt>
-<dd>
-<p>a named geographical area defining a community or area of interest, which may be rural or urban in character, and is usually a suburb in the latter case [SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="primary-address-site"></a> primary address site</dt>
-<dd>
-<p>an address site that is not contained within another address site. It may contain a sub-address site [SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="profile"></a> profile</dt>
-<dd>
-<p>set of one or more base standards or subsets of base standards, and, where applicable, the identification of chosen clauses, classes, options and parameters of those base standards, that are necessary for accomplishing a particular function [SOURCE: ISO 19160.2:2023]</p>
-</dd>
-<dt class="hdlist1"><a id="sub-address"></a> sub-address</dt>
-<dd>
-<p>[SOURCE: AS/NZS 4819:2011]</p>
-</dd>
-<dt class="hdlist1"><a id="sub-address-site"></a> sub-address site</dt>
-<dd>
-<p>an address site that is contained within a primary address site e.g. an apartment within a building [SOURCE: AS/NZS 4819:2011]. Sometimes referred to as a secondary address site.</p>
-</dd>
-<dt class="hdlist1"><a id="thoroughfare-address"></a> thoroughfare address</dt>
-<dd>
-<p>an address that is assigned with reference to the thoroughfare it is accessed from, for example a road or water feature.</p>
-</dd>
-</dl>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_conformance"><a class="anchor" href="#_conformance"></a>5. Conformance</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>TBC – how we conform to the ISO Standard</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_overview"><a class="anchor" href="#_overview"></a>6. Overview</h2>
+<h2 id="_abstract"><a class="anchor" href="#_abstract"></a>1. Abstract</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This document specifies how addresses should be assigned and maintained to support Australia’s addressing infrastructure. It intends to help addressing authorities to fulfil custodial responsibilities and enable a consistent national approach to ongoing maintenance, accuracy and quality of addresses.</p>
@@ -624,7 +477,236 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_good_practice"><a class="anchor" href="#_good_practice"></a>7. Good practice</h2>
+<h2 id="_metadata"><a class="anchor" href="#_metadata"></a>2. Metadata</h2>
+<div class="sectionbody">
+<table class="tableblock frame-none grid-none stripes-even" style="width: 75%;">
+<colgroup>
+<col style="width: 28.5714%;">
+<col style="width: 71.4286%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>IRI</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://linked.data.gov.au/def/addr-cm</code><br>
+(proposed)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Name</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Address Creation &amp; Maintenance Standard</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Description</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">How addresses should be assigned and maintained to support Australia’s addressing infrastructure</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Created</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2024-09-01</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Modified</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2024-09-13</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Issued</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0000-00-00</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Creator</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://linked.data.gov.au/org/icsm-addrwg">ICSM&#8217;s Addressing Working Group</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Publisher</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://linked.data.gov.au/org/icsm">Intergovernmental Committee on Surveying &amp; Mapping (ICSM)</a> (<a href="mailto:ICSM@ga.gov.au">ICSM@ga.gov.au</a>)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Provenance</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">This standard was created in 2024 by the ICSM Addressing Working Group after the publication of ISO&#8217;s publication in 2023 of ISO19160-2 Assigning and maintaining addresses for objects in the physical world and in 2024 of ICSM&#8217;s publication of its Address Model. This standard is a profile of the former and instructions in the production of data conformant to the latter.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Status</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Draft</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Version</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.0.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Code Repository</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://github.com/Spatial-Information-QLD/addr-creation-maintenance" class="bare">https://github.com/Spatial-Information-QLD/addr-creation-maintenance</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>License</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Copyright</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&copy; Intergovernmental Committee on Surveying &amp; Mapping, 2024</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_preamble"><a class="anchor" href="#_preamble"></a>3. Preamble</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_scope"><a class="anchor" href="#_scope"></a>3.1. Scope</h3>
+<div class="paragraph">
+<p>This document is a Profile of <a href="#ISO19160-2">ISO 19160-2:2023, Addressing – Part 2: Assigning and maintaining addresses for objects in the physical world</a>.</p>
+</div>
+<div class="paragraph">
+<p>In the Australian context, this standard applies to thoroughfare-based addressing i.e. street and water, as well as landmark addressing. It is designed as a replacement for <a href="#ANZ4819">&lt;&lt;ANZ4819, ANZ4819</a> Rural and urban addressing&gt;&gt;. This standard does not apply to other address classes such as postal or landmark at this time. Postal addressing is expected to adhere to <a href="#ASNZSISO19160-4">AS/NZS ISO 19160.4:2023 International postal address components and template language</a>.</p>
+</div>
+<div class="paragraph">
+<p>This document focuses on assigning and maintaining addresses that allow the unambiguous determination of an object in the physical world for purposes of identification and location in the context of public administration and public service delivery.</p>
+</div>
+<div class="paragraph">
+<p>This standard provides requirements for addressing authorities to assign addresses, record the related information, and signage related to addressing components.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_normative_references"><a class="anchor" href="#_normative_references"></a>3.2. Normative References</h3>
+<div class="paragraph">
+<p>The following standard is needed for the application of this Australian Profile:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#ISO19160-2">ISO 19160-2:2023, Addressing – Part 2: Assigning and maintaining addresses for objects in the physical world</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The following documents inform aspects of this standard for Australia:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#ANZ4819">&lt;&lt;ANZ4819, ANZ4819</a> Rural and urban addressing&gt;&gt;</p>
+</li>
+<li>
+<p>AS 4590.1:2017 Interchange of client information</p>
+</li>
+<li>
+<p><a href="#ISO19160-1">AS/NZS ISO 19160.1:2018 Addressing – Part 1: Conceptual model</a></p>
+</li>
+<li>
+<p>ICSM Addressing 2035 Strategy and Supporting Addendum1</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The following document defines the addressing model used for address records:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#ADDR2024">ICSM&#8217;s Address Model</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_terms_definitions"><a class="anchor" href="#_terms_definitions"></a>3.3. Terms &amp; Definitions</h3>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a id="access-point"></a> access point</dt>
+<dd>
+<p>The position along a throughfare (road or water feature) where the public would normally access an address site. SOURCE: this standard</p>
+</dd>
+<dt class="hdlist1"><a id="address"></a> address</dt>
+<dd>
+<p>An address is structured information that allows the unambiguous determination of an object for purposes of identification and location (SOURCE ISO 19160-1:2015). The objects exist in the physical world (i.e. virtual objects are excluded) and can be outdoor (e.g. a building) or indoor (e.g. an office inside a building). SOURCE: this standard</p>
+</dd>
+<dt class="hdlist1"><a id="addressable-object"></a> addressable object</dt>
+<dd>
+<p>Object that may be assigned an address. SOURCE: <a href="#ISO19160-2">ISO19160-2</a></p>
+</dd>
+<dt class="hdlist1"><a id="address-assignment-method"></a> address assignment method</dt>
+<dd>
+<p>The way in which addresses are assigned according to the rules of an address reference system. SOURCE: <a href="#ISO19160-2">ISO19160-2</a></p>
+</dd>
+<dt class="hdlist1"><a id="address-authority"></a> address authority</dt>
+<dd>
+<p>Agency responsible for assigning addresses. Usually a local government. SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="address-class"></a> address class</dt>
+<dd>
+<p>description of a set of addresses that share the same address components, operations, methods, relationships, and semantics. SOURCE: <a href="#ISO19160-2">ISO19160-2</a></p>
+</dd>
+<dt class="hdlist1"><a id="address-component"></a> address component</dt>
+<dd>
+<p>constituent part of the address. These may reference another object such as a spatial object including and administrative boundary or land parcel, or a non-spatial entity. SOURCE: <a href="#ISO19160-2">ISO19160-2</a></p>
+</dd>
+<dt class="hdlist1"><a id="address-reference-system"></a> address reference system</dt>
+<dd>
+<p>A defined set of address components and the rules for their combination into addresses. SOURCE: <a href="#ISO19160-2">ISO19160-2</a></p>
+</dd>
+<dt class="hdlist1"><a id="address-site"></a> address site</dt>
+<dd>
+<p>a site for which an address is being assigned. SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="alternative-name"></a> alternative name</dt>
+<dd>
+<p>a name that is an alternative name to another name for the same feature. SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="dual-name"></a> dual name</dt>
+<dd>
+<p>a name that consists of two official names that must be used together, usually one indigenous and one European (e.g. ‘Aoraki/Mount Cook’). SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="formed"></a> formed</dt>
+<dd>
+<p>in relation to a road, means that it is physically constructed or prepared for passage by vehicles or pedestrians. SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="geocode"></a> geocode</dt>
+<dd>
+<p>a point feature for an address spatially defined by coordinates. SOURCE: this standard</p>
+</dd>
+<dt class="hdlist1"><a id="locality"></a> locality</dt>
+<dd>
+<p>a named geographical area defining a community or area of interest, which may be rural or urban in character, and is usually a suburb in the latter case. SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="primary-address-site"></a> primary address site</dt>
+<dd>
+<p>an address site that is not contained within another address site. It may contain a sub-address site. SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="profile"></a> profile</dt>
+<dd>
+<p>set of one or more base standards or subsets of base standards, and, where applicable, the identification of chosen clauses, classes, options and parameters of those base standards, that are necessary for accomplishing a particular function. SOURCE: <a href="#ISO19160-2">ISO19160-2</a></p>
+</dd>
+<dt class="hdlist1"><a id="sub-address"></a> sub-address</dt>
+<dd>
+<p><mark>TODO: complete me</mark>. SOURCE: <a href="#ANZ4819">ANZ4819</a></p>
+</dd>
+<dt class="hdlist1"><a id="sub-address-site"></a> sub-address site</dt>
+<dd>
+<p>an address site that is contained within a primary address site e.g. an apartment within a building SOURCE: <a href="#ANZ4819">ANZ4819</a>. Sometimes referred to as a secondary address site. SOURCE: this standard</p>
+</dd>
+<dt class="hdlist1"><a id="thoroughfare-address"></a> thoroughfare address</dt>
+<dd>
+<p>an address that is assigned with reference to the thoroughfare it is accessed from, for example a road or water feature. SOURCE: this standard</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_conformance"><a class="anchor" href="#_conformance"></a>3.4. Conformance</h3>
+<div class="paragraph">
+<p>TBC – how we conform to the ISO Standard</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction"><a class="anchor" href="#_introduction"></a>4. Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is a placeholder</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_good_practice"><a class="anchor" href="#_good_practice"></a>5. Good practice</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em>For assigning and maintaining addresses</em></p>
@@ -632,7 +714,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_governance_framework"><a class="anchor" href="#_governance_framework"></a>8. Governance Framework</h2>
+<h2 id="_governance_framework"><a class="anchor" href="#_governance_framework"></a>6. Governance Framework</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><em>For assigning and maintaining addresses</em></p>
@@ -650,13 +732,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="dlist">
 <dl>
-<dt class="hdlist1"><a id="ANZ4819"></a> AS/NZS4819:2011</dt>
+<dt class="hdlist1"><a id="ADDR2024"></a> ADDR2024</dt>
 <dd>
-<p>Standards Australia. <em>AS/NZS 4819:2011 Rural and urban addressing</em></p>
+<p>Intergovernmental Committee on Surveying &amp; Mapping. <em>Address Model</em> (2024). <a href="https://linked.data.gov.au/def/addr" class="bare">https://linked.data.gov.au/def/addr</a></p>
 </dd>
 <dt class="hdlist1"><a id="ISO19160-1"></a> ISO19160-1</dt>
 <dd>
 <p>International Organization for Standardization, <em>ISO 19160-1: Addressing Part 1: Conceptual model</em> (2015). <a href="https://www.iso.org/standard/61710.html" class="bare">https://www.iso.org/standard/61710.html</a></p>
+</dd>
+<dt class="hdlist1"><a id="ISO19160-2"></a> ISO19160-2</dt>
+<dd>
+<p>International Organization for Standardization, <em>ISO 19160-2: Part 2: Assigning and maintaining addresses for objects in the physical world</em> (2023). <a href="https://www.iso.org/standard/81674.html" class="bare">https://www.iso.org/standard/81674.html</a></p>
+</dd>
+<dt class="hdlist1"><a id="ANZ4819"></a> AS/NZS4819:2011</dt>
+<dd>
+<p>Standards Australia. <em>AS/NZS 4819:2011 Rural and urban addressing</em></p>
+</dd>
+<dt class="hdlist1"><a id="ASNZSISO19160-4"></a> ASNZSISO19160-4</dt>
+<dd>
+<p>Standards Australia. <em>AS/NZS ISO 19160.4: Addressing, Part 4: International postal address components and template language</em> (2023). <a href="https://store.standards.org.au/product/as-nzs-iso-19160-4-2023" class="bare">https://store.standards.org.au/product/as-nzs-iso-19160-4-2023</a></p>
 </dd>
 </dl>
 </div>
@@ -665,7 +759,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-08-28 23:11:14 UTC
+Last updated 2024-09-13 09:37:53 UTC
 </div>
 </div>
 </body>
