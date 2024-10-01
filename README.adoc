@@ -1,5 +1,5 @@
 [NOTE]
-This document has moved to the https://www.icsm.org.au[ICSM]'s GitHub account at https://github.com/icsm-au/addr-creation-maintenance
+This document has moved to the https://www.icsm.gov.au[ICSM] see https://github.com/icsm-au/addr-creation-maintenance
 
 = Australian Addressing Creation & Maintenance Standard
 
