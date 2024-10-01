@@ -1,3 +1,6 @@
+[NOTE]
+This document has moved to the https://www.icsm.org.au[ICSM]'s GitHub account at https://github.com/icsm-au/addr-creation-maintenance
+
 = Australian Addressing Creation & Maintenance Standard
 
 _The Australian Profile of ISO 19160.2:2023, Addressing – Part 2: Assigning and maintaining addresses for objects in the physical world_
